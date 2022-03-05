@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vues.TousLesFilms">
+   <children>
+      <TextArea fx:id="lesFilms" layoutY="49.0" prefHeight="157.0" prefWidth="600.0" />
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="26.0" prefWidth="121.0" text="Tous les films">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonRetour" layoutY="206.0" mnemonicParsing="false" text="Retour" />
+   </children>
+</AnchorPane>
